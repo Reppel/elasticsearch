@@ -1,4 +1,15 @@
 
+tag::bytes[]
+`bytes`::
+(Optional, <<byte-units,byte size units>>) Unit used to display byte values.
+end::bytes[]
+
+tag::node-id[]
+`{node_id}`::
+(Optional, string) Comma-separated list of node IDs or names used to limit
+returned information.
+end::node-id[]
+
 tag::timeoutparms[]
 `timeout`::
 (Optional, <<time-units, time units>>) Specifies the period of time to wait for
